@@ -1,13 +1,54 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.header {
+  text-align: center;
+}
+
+/************************ Body Styling ****************/
+.body h2 {
+  text-align: center;
+}
+.news-card {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px;
+  background-color: #f0f0f0;
+  height: 30vw;
+}
+
+.img-container {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin: 10px;
+}
+.img-container img {
+  width: 100%;
+  height: 80%;
+  border-radius: 20px;
+  margin: auto;
+}
+.news-description {
+  width: 50%;
+  margin: 10px;
+  padding: 10px;
+}
+
+/****************** Footer Styling *********************/
+
+.footer h5 {
+  text-align: center;
 }
